@@ -10,7 +10,7 @@ namespace Hackerrank_Solutions
     {
         static void Main(string[] args)
         {
-            P003.Test();
+            P004.Test();
             Console.ReadKey();
         }
     }
