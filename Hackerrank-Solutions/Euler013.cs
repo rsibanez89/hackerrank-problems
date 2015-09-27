@@ -26,9 +26,7 @@ namespace Hackerrank_Solutions
             String result = b.ToString();
             for (int i = 0; i < 10; i++)
                 Console.Write(result[i]);
-            Console.WriteLine();
-            
-        
+            Console.WriteLine(); 
         }
     }
 }

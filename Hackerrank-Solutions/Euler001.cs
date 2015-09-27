@@ -61,7 +61,7 @@ namespace Hackerrank_Solutions
         }
 
         // This is a O(1) solution
-        public static long solution3(int N)
+        private static long solution3(int N)
         {
             long sumDivisibleBy3 = GetSumOfNumbersDivisibleByN(N-1, 3);
             long sumDivisibleBy5 = GetSumOfNumbersDivisibleByN(N-1, 5);
