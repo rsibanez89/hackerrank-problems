@@ -8,7 +8,7 @@ namespace Hackerrank_Solutions.generalpractice
 {
     public class UsingInputOuput
     {
-        public void Run()
+        public void Test()
         {
             simpleReadingWriting();
             loopReading();
@@ -51,7 +51,7 @@ namespace Hackerrank_Solutions.generalpractice
                     myText = myText + " ** " + myString;
             }
 
-            // You will never see the followin line if you execute from visual studio, but its printed.
+            // You will never see the following line if you execute from visual studio but its printed.
             Console.WriteLine(myText);
         }
     }

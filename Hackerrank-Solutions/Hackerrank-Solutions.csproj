@@ -46,6 +46,7 @@
     <Compile Include="Euler001.cs" />
     <Compile Include="Euler005.cs" />
     <Compile Include="Euler013.cs" />
+    <Compile Include="generalpractice\UsingFormatting.cs" />
     <Compile Include="generalpractice\UsingInputOuput.cs" />
     <Compile Include="HalloweenParty.cs" />
     <Compile Include="P001.cs" />
