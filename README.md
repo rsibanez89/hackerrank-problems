@@ -8,7 +8,8 @@ http://visualstudioshortcuts.com/2015/    -> will show a list of all the shortcu
 
 ### Run app
 ```
-F11           	       -> Run 
+Ctrl + Shift + B	   -> Build
+F5           	       -> Run 
 ```
 
 ### Comment/Uncomment

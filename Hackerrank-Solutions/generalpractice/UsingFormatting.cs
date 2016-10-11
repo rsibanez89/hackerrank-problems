@@ -12,6 +12,7 @@ namespace Hackerrank_Solutions.generalpractice
         {
             simpleFormatting();
             specifyingWidthAndAligning();
+            formattingNumbers();
             simpleTable();
         }
 
@@ -61,6 +62,34 @@ namespace Hackerrank_Solutions.generalpractice
 
             // {:0,000.00} for currency without inserting the symbol $. 
             Console.WriteLine("{0:0,000.00} \n", 5673123.251d);
+        }
+
+        private void formattingNumbers()
+        {
+            // {:0.00} for just two decimal places
+            Console.WriteLine("{0,15:0.00}", 5);  
+            Console.WriteLine("{0,15:0.00}", 5.2345f);     
+            Console.WriteLine("{0,15:0.00}\n", 5673123.251d);
+
+            // {:0.00} for maximum two decimal places
+            Console.WriteLine("{0:0.##}", 5);
+            Console.WriteLine("{0:0.##}", 5.2345f);
+            Console.WriteLine("{0:0.##}\n", 5673123.251d);
+
+            // {:0000000000} for at least ten digits before decimal point
+            Console.WriteLine("{0:0000000000.0}", 5);    
+            Console.WriteLine("{0:0000000000.0}", 5.2345f);     
+            Console.WriteLine("{0:0000000000.0}\n", 5673123.251d);
+
+            // {:0,0.0} for using thousands separator
+            Console.WriteLine("{0:,0}", 5);
+            Console.WriteLine("{0:,0}", 5.2345f);
+            Console.WriteLine("{0:0,0.0}\n", 5673123.251d);
+
+            // for adding custom formatting to negative numbers and zero
+            Console.WriteLine("{0:0.00;minus 0.00;zero}", 5673123.251d);
+            Console.WriteLine("{0:0.00;minus 0.00;zero}", -5673123.251d);
+            Console.WriteLine("{0:0.00;minus 0.00;zero}\n", 0.0);
         }
 
         private void simpleTable()
