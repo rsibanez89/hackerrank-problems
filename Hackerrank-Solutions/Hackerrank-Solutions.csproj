@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinarySearchIceCreamParlor.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="Euler001.cs" />
     <Compile Include="Euler005.cs" />
     <Compile Include="Euler013.cs" />
+    <Compile Include="generalpractice\UsingCollections.cs" />
     <Compile Include="generalpractice\UsingFormatting.cs" />
     <Compile Include="generalpractice\UsingInputOuput.cs" />
+    <Compile Include="generalpractice\UsingNumberLimits.cs" />
     <Compile Include="HalloweenParty.cs" />
     <Compile Include="P001.cs" />
     <Compile Include="P002.cs" />
