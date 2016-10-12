@@ -48,6 +48,7 @@
     <Compile Include="Euler005.cs" />
     <Compile Include="Euler013.cs" />
     <Compile Include="generalpractice\UsingCollections.cs" />
+    <Compile Include="generalpractice\UsingConversions.cs" />
     <Compile Include="generalpractice\UsingFormatting.cs" />
     <Compile Include="generalpractice\UsingInputOuput.cs" />
     <Compile Include="generalpractice\UsingNumberLimits.cs" />

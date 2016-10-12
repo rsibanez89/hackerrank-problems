@@ -81,9 +81,9 @@ namespace Hackerrank_Solutions.generalpractice
             Console.WriteLine("{0:0000000000.0}", 5.2345f);     
             Console.WriteLine("{0:0000000000.0}\n", 5673123.251d);
 
-            // {:0,0.0} for using thousands separator
-            Console.WriteLine("{0:,0}", 5);
-            Console.WriteLine("{0:,0}", 5.2345f);
+            // {:0,0} for using thousands separator
+            Console.WriteLine("{0:0,0}", 5);
+            Console.WriteLine("{0:0,0}", 5.2345f);
             Console.WriteLine("{0:0,0.0}\n", 5673123.251d);
 
             // for adding custom formatting to negative numbers and zero
