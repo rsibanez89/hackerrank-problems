@@ -8,7 +8,20 @@ namespace Hackerrank_Solutions
 {
     public static class Common
     {
-        public static void print(int [][] matrix)
+
+        public static void print(char[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+                Console.Write(array[i] + " ");
+            Console.WriteLine();
+        }
+        public static void print(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+                Console.Write(array[i] + " ");
+            Console.WriteLine();
+        }
+        public static void print(int[][] matrix)
         {
             for (int i = 0; i < matrix.Length; i++)
             {
@@ -30,7 +43,8 @@ namespace Hackerrank_Solutions
             return graph;
         }
 
-        public static bool[] getBoolVector(int size){
+        public static bool[] getBoolVector(int size)
+        {
             bool[] vector = new bool[size];
             for (int i = 0; i < size; i++)
                 vector[i] = false;
