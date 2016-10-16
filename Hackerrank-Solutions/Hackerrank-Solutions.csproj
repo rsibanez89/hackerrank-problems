@@ -47,7 +47,7 @@
     <Compile Include="BinarySearchIceCreamParlor.cs" />
     <Compile Include="Common.cs" />
     <Compile Include="ComparatorSorting.cs" />
-    <Compile Include="Rokt.cs" />
+    <Compile Include="MaximumDifference.cs" />
     <Compile Include="solutions\Euler001.cs" />
     <Compile Include="solutions\Euler005.cs" />
     <Compile Include="solutions\Euler013.cs" />
