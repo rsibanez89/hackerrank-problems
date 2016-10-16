@@ -12,7 +12,7 @@ namespace Hackerrank_Solutions
     {
         static void Main(string[] args)
         {
-            new Rokt().Test();
+            new MaximumDifference().Test();
             Console.ReadKey();
         }
     }

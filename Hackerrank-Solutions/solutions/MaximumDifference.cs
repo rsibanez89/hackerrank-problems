@@ -28,7 +28,7 @@ namespace Hackerrank_Solutions
 
             if (maxDiff > 0)
                 return maxDiff;
-            return -1; // Descendent order
+            return -1; // Descending order
         }
 
         public void Test()
@@ -57,7 +57,7 @@ namespace Hackerrank_Solutions
                         maxDiff = a[i] - a[j];
             if (maxDiff > 0)
                 return maxDiff;
-            return -1; // Descendent order
+            return -1; // Descending order
         }
     }
 }
