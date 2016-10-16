@@ -46,6 +46,7 @@
     <Compile Include="BiggerIsGreater.cs" />
     <Compile Include="BinarySearchIceCreamParlor.cs" />
     <Compile Include="Common.cs" />
+    <Compile Include="ComparatorSorting.cs" />
     <Compile Include="Euler001.cs" />
     <Compile Include="Euler005.cs" />
     <Compile Include="Euler013.cs" />
