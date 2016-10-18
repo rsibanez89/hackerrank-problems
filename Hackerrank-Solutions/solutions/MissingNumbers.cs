@@ -65,7 +65,7 @@ namespace Hackerrank_Solutions
         }
 
         // Terminated due to timeout
-        private void Solution2()
+        public void Solution2()
         {
             int nLine = 0;
             int n = int.Parse(inputs[nLine++]);

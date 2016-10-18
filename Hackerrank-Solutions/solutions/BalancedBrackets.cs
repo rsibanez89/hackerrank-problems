@@ -69,7 +69,7 @@ namespace Hackerrank_Solutions
 
 
         // It doesnt consider the case {{()()[]}}
-        private void Solution1()
+        public void Solution1()
         {
             int nLine = 0;
             int n = int.Parse(inputs[nLine++]);

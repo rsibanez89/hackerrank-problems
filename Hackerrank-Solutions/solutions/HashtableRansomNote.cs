@@ -39,7 +39,7 @@ namespace Hackerrank_Solutions
         }
 
         // Terminated due to timeout
-        private void Solution1()
+        public void Solution1()
         {
             int nLine = 0;
             string[] line = inputs[nLine++].Split();
