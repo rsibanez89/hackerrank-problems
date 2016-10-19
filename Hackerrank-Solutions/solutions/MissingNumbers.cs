@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hackerrank_Solutions
+namespace Hackerrank_Solutions.solutions
 {
     public class MissingNumbers
     {

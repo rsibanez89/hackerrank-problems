@@ -13,7 +13,7 @@ namespace Hackerrank_Solutions
     {
         static void Main(string[] args)
         {
-            new TriesContacts().Test();
+            new BiggerIsGreater().Test();
             Console.ReadKey();
         }
     }
